@@ -1,0 +1,214 @@
+{
+    "common": {
+        "actions": {
+            "cancel": "Annuler",
+            "confirm": "Confirmer",
+            "continue": "Continuer",
+            "goBack": "Retour",
+            "reset": "Reset",
+            "submit": "Envoyer"
+        },
+        "status": {
+            "loading": "Chargement...",
+            "error": {
+                "default": "Une erreur est survenue",
+                "serverConnection": "Serveur non atteignable"
+            }
+        }
+    },
+    "auth": {
+        "login": {
+            "title": "Authentification",
+            "form": {
+                "email": {
+                    "label": "Utilisateur",
+                    "required": "Ce champ est obligatoire"
+                },
+                "password": {
+                    "label": "Mot de passe",
+                    "required": "Ce champ est obligatoire"
+                },
+                "actions": {
+                    "signin": "Se Connecter"
+                },
+                "alternativeText": {
+                    "or": "Ou"
+                }
+            },
+            "errors": {
+                "default": "Impossible de se connecter",
+                "signin": "Essayer avec un autre compte",
+                "oauthSignin": "Essayer avec un autre compte",
+                "redirectUriMismatch": "The redirect URI is not matching the oauth app configuration",
+                "oauthCallback": "Essayer avec un autre compte",
+                "oauthCreateAccount": "Essayer avec un autre compte",
+                "emailCreateAccount": "Essayer avec un autre compte",
+                "callback": "Essayer avec un autre compte",
+                "oauthAccountNotLinked": "To confirm your identity, sign in with the same account you used originally",
+                "emailSignin": "L'email ne peut pas etre envoye",
+                "emailVerify": "Verifier vos mail, un nouveau mail a ete envoye",
+                "credentialsSignin": "Authentification echouee. verifiez le journal d'erreur",
+                "sessionRequired": "Veuillez vous authentifier pour acceder a cette page"
+            }
+        },
+        "provider": {
+            "continue": "Continuer avec {{provider}}"
+        }
+    },
+    "chat": {
+        "input": {
+            "placeholder": "Posez votre question ici...",
+            "actions": {
+                "send": "Envoyer Un Message",
+                "stop": "Arreter La Tache",
+                "attachFiles": "Joindre Un Fichier"
+            }
+        },
+        "speech": {
+            "start": "Commencer Enregistrement",
+            "stop": "Arreter Enregistrement",
+            "connecting": "Connection"
+        },
+        "fileUpload": {
+            "dragDrop": "Drag and drop votre fichier",
+            "browse": "Parcourir Fichier",
+            "sizeLimit": "Limite:",
+            "errors": {
+                "failed": "Upload echoue",
+                "cancelled": "Cancelled upload of"
+            }
+        },
+        "messages": {
+            "status": {
+                "using": "",
+                "used": ""
+            },
+            "actions": {
+                "copy": {
+                    "button": "Copier Dans Le Presse-papier",
+                    "success": "Copie!"
+                }
+            },
+            "feedback": {
+                "positive": "Positif",
+                "negative": "Negatif",
+                "edit": "Editer avis",
+                "dialog": {
+                    "title": "Ajouter un avis",
+                    "submit": "Envoyer"
+                },
+                "status": {
+                    "updating": "Mise a jour",
+                    "updated": "Avis a jour"
+                }
+            }
+        },
+        "history": {
+            "title": "Dernier Input",
+            "empty": "Vide",
+            "show": "Afficher Historique"
+        },
+        "settings": {
+            "title": "Panneau De Reglage"
+        },
+        "watermark": "Fait avec"
+    },
+    "threadHistory": {
+        "sidebar": {
+            "title": "Chats precedents",
+            "filters": {
+                "search": "Rechercher",
+                "placeholder": "Chercher conversations..."
+            },
+            "timeframes": {
+                "today": "Aujourd'hui",
+                "yesterday": "Hier",
+                "previous7days": "7 Jours Precedent",
+                "previous30days": "30 Jours Precedent"
+            },
+            "empty": "Pas de Session",
+            "actions": {
+                "close": "Fermer Sidebar",
+                "open": "Ouvrir Sidebar"
+            }
+        },
+        "thread": {
+            "untitled": "Conversation Non Titre",
+            "menu": {
+                "rename": "Renommer",
+                "delete": "Supprimer"
+            },
+            "actions": {
+                "delete": {
+                    "title": "Confirmer Suppression",
+                    "description": "Cette action va supprimer definitivement la conversation",
+                    "success": "Conversation Supprimer",
+                    "inProgress": "En cours de Suppression"
+                },
+                "rename": {
+                    "title": "Renommer Conversation",
+                    "description": "Entrer un nom pour cette conversation",
+                    "form": {
+                        "name": {
+                            "label": "Nom",
+                            "placeholder": "Nouveau Nom"
+                        }
+                    },
+                    "success": "Conversation Renommee!",
+                    "inProgress": "En cours de Renommage"
+                }
+            }
+        }
+    },
+    "navigation": {
+        "header": {
+            "chat": "Chat",
+            "readme": "Lisez-moi",
+            "theme": {
+                "light": "Theme Light",
+                "dark": "Theme Sombre",
+                "system": "Selon le systeme"
+            }
+        },
+        "newChat": {
+            "button": "Nouveau Chat",
+            "dialog": {
+                "title": "Creer Un Nouveau Chat",
+                "description": "Cette action va vider votre conversation. Voulez vous continuer?",
+                "tooltip": "Nouveau Chat"
+            }
+        },
+        "user": {
+            "menu": {
+                "settings": "Reglage",
+                "settingsKey": "S",
+                "apiKeys": "Cle API",
+                "logout": "Se Deconnecter"
+            }
+        }
+    },
+    "apiKeys": {
+        "title": "Required API Keys",
+        "description": "To use this app, the following API keys are required. The keys are stored on your device's local storage.",
+        "success": {
+            "saved": "Saved successfully"
+        }
+    },
+    "alerts": {
+        "info": "Info",
+        "note": "Note",
+        "tip": "Tip",
+        "important": "Important",
+        "warning": "Warning",
+        "caution": "Caution",
+        "debug": "Debug",
+        "example": "Example",
+        "success": "Success",
+        "help": "Help",
+        "idea": "Idea",
+        "pending": "Pending",
+        "security": "Security",
+        "beta": "Beta",
+        "best-practice": "Best Practice"
+    }
+}
